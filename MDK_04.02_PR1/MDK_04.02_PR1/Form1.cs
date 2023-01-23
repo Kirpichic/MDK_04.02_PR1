@@ -36,8 +36,8 @@ namespace MDK_04._02_PR1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            x = Convert.ToDouble(textBoxX.Text); y = Convert.ToDouble(textBoxY.Text); z = Convert.ToDouble(textBoxZ.Text);
-            Otwet.Text = Convert.ToString(((2 * Math.Cos(x - (Math.PI / 6))) / (0.5 + (Math.Sin(y) * Math.Sin(y)))) * (1 + ((z * z) / (3 - ((z * z) / 5)))));
+                x = Convert.ToDouble(textBoxX.Text); y = Convert.ToDouble(textBoxY.Text); z = Convert.ToDouble(textBoxZ.Text);
+                Otwet.Text = Convert.ToString(((2 * Math.Cos(x - (Math.PI / 6))) / (0.5 + (Math.Sin(y) * Math.Sin(y)))) * (1 + ((z * z) / (3 - ((z * z) / 5)))));
         }
 
         private void textBoxY_TextChanged(object sender, EventArgs e)
