@@ -1,0 +1,10 @@
+C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\bin\Debug\MDK_04.02_PR1.exe.config
+C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\bin\Debug\MDK_04.02_PR1.exe
+C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\bin\Debug\MDK_04.02_PR1.pdb
+C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04._02_PR1.Form1.resources
+C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04._02_PR1.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.exe
+C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.pdb
