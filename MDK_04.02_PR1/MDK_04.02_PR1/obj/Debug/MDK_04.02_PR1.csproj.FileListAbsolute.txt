@@ -8,3 +8,14 @@ C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Deb
 C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.csproj.CoreCompileInputs.cache
 C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.exe
 C:\Users\user\Documents\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.pdb
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\bin\Debug\MDK_04.02_PR1.exe.config
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\bin\Debug\MDK_04.02_PR1.exe
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\bin\Debug\MDK_04.02_PR1.pdb
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.csproj.AssemblyReference.cache
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.csproj.SuggestedBindingRedirects.cache
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04._02_PR1.Form1.resources
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04._02_PR1.Properties.Resources.resources
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.csproj.GenerateResource.cache
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.csproj.CoreCompileInputs.cache
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.exe
+F:\GitHub\MDK_04.02_PR1\MDK_04.02_PR1\MDK_04.02_PR1\obj\Debug\MDK_04.02_PR1.pdb
