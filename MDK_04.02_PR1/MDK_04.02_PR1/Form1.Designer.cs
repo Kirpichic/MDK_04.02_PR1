@@ -42,23 +42,23 @@ namespace MDK_04._02_PR1
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.otvet2 = new System.Windows.Forms.RichTextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.BoxX = new System.Windows.Forms.TextBox();
             this.BoxY = new System.Windows.Forms.TextBox();
-            this.f1 = new System.Windows.Forms.RadioButton();
-            this.f2 = new System.Windows.Forms.RadioButton();
+            this.BoxX = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.otvet2 = new System.Windows.Forms.RichTextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.f3 = new System.Windows.Forms.RadioButton();
+            this.f2 = new System.Windows.Forms.RadioButton();
+            this.f1 = new System.Windows.Forms.RadioButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Линейный.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // Линейный
@@ -187,34 +187,37 @@ namespace MDK_04._02_PR1
             this.tabPage2.Text = "Разветвляющийся";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // BoxY
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(444, 165);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.BoxY.Location = new System.Drawing.Point(72, 268);
+            this.BoxY.Name = "BoxY";
+            this.BoxY.Size = new System.Drawing.Size(119, 20);
+            this.BoxY.TabIndex = 11;
             // 
-            // label4
+            // BoxX
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(16, 226);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 25);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "X = ";
+            this.BoxX.Location = new System.Drawing.Point(72, 231);
+            this.BoxX.Name = "BoxX";
+            this.BoxX.Size = new System.Drawing.Size(119, 20);
+            this.BoxX.TabIndex = 10;
             // 
-            // label5
+            // button2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(16, 263);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 25);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Y = ";
+            this.button2.Location = new System.Drawing.Point(175, 536);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Ответ";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // otvet2
+            // 
+            this.otvet2.Location = new System.Drawing.Point(5, 353);
+            this.otvet2.Name = "otvet2";
+            this.otvet2.Size = new System.Drawing.Size(442, 177);
+            this.otvet2.TabIndex = 8;
+            this.otvet2.Text = "";
             // 
             // groupBox1
             // 
@@ -228,70 +231,67 @@ namespace MDK_04._02_PR1
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Выбор функции";
             // 
-            // otvet2
+            // f3
             // 
-            this.otvet2.Location = new System.Drawing.Point(5, 353);
-            this.otvet2.Name = "otvet2";
-            this.otvet2.Size = new System.Drawing.Size(442, 177);
-            this.otvet2.TabIndex = 8;
-            this.otvet2.Text = "";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(175, 536);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Ответ";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // BoxX
-            // 
-            this.BoxX.Location = new System.Drawing.Point(72, 231);
-            this.BoxX.Name = "BoxX";
-            this.BoxX.Size = new System.Drawing.Size(119, 20);
-            this.BoxX.TabIndex = 10;
-            // 
-            // BoxY
-            // 
-            this.BoxY.Location = new System.Drawing.Point(72, 268);
-            this.BoxY.Name = "BoxY";
-            this.BoxY.Size = new System.Drawing.Size(119, 20);
-            this.BoxY.TabIndex = 11;
-            // 
-            // f1
-            // 
-            this.f1.AutoSize = true;
-            this.f1.Location = new System.Drawing.Point(78, 37);
-            this.f1.Name = "f1";
-            this.f1.Size = new System.Drawing.Size(109, 17);
-            this.f1.TabIndex = 0;
-            this.f1.TabStop = true;
-            this.f1.Text = "Первая функция";
-            this.f1.UseVisualStyleBackColor = true;
+            this.f3.AutoSize = true;
+            this.f3.Location = new System.Drawing.Point(78, 112);
+            this.f3.Name = "f3";
+            this.f3.Size = new System.Drawing.Size(53, 17);
+            this.f3.TabIndex = 2;
+            this.f3.TabStop = true;
+            this.f3.Text = "exp(x)";
+            this.f3.UseVisualStyleBackColor = true;
             // 
             // f2
             // 
             this.f2.AutoSize = true;
             this.f2.Location = new System.Drawing.Point(78, 74);
             this.f2.Name = "f2";
-            this.f2.Size = new System.Drawing.Size(107, 17);
+            this.f2.Size = new System.Drawing.Size(50, 17);
             this.f2.TabIndex = 1;
             this.f2.TabStop = true;
-            this.f2.Text = "Вторая функция";
+            this.f2.Text = "sqr(x)";
             this.f2.UseVisualStyleBackColor = true;
             // 
-            // f3
+            // f1
             // 
-            this.f3.AutoSize = true;
-            this.f3.Location = new System.Drawing.Point(78, 112);
-            this.f3.Name = "f3";
-            this.f3.Size = new System.Drawing.Size(107, 17);
-            this.f3.TabIndex = 2;
-            this.f3.TabStop = true;
-            this.f3.Text = "Третья функция";
-            this.f3.UseVisualStyleBackColor = true;
+            this.f1.AutoSize = true;
+            this.f1.Location = new System.Drawing.Point(78, 37);
+            this.f1.Name = "f1";
+            this.f1.Size = new System.Drawing.Size(53, 17);
+            this.f1.TabIndex = 0;
+            this.f1.TabStop = true;
+            this.f1.Text = "cos(x)";
+            this.f1.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(16, 263);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(51, 25);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Y = ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(16, 226);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 25);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "X = ";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(444, 165);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
@@ -307,9 +307,9 @@ namespace MDK_04._02_PR1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

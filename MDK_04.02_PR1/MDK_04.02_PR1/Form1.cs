@@ -19,12 +19,58 @@ namespace MDK_04._02_PR1
             x = Convert.ToDouble(BoxX.Text); y = Convert.ToDouble(BoxY.Text);
             if (f1.Checked == true) {
 
-                /*otvet2.Text = Convert.ToString();*/
+                if ((x*y<4) & (x*y>1)) {
 
-            } else if (f2.Checked == true) { 
-            
+                    otvet2.Text = Convert.ToString(Math.Pow((Math.Cos(x)+y),2));
+
+                } else if ((x * y < 10) & (x * y > 8))
+                {
+
+                    otvet2.Text = Convert.ToString(Math.Cos(x) * Math.Tan(y)) ;
+
+                } else
+                {
+                    otvet2.Text = Convert.ToString(Math.Cos(x) + y);
+                }
+           
+            } else if (f2.Checked == true) {
+
+                if ((x * y < 4) & (x * y > 1))
+                {
+
+                    otvet2.Text = Convert.ToString(Math.Pow((Math.Pow(x,2) + y), 2));
+
+                }
+                else if ((x * y < 10) & (x * y > 8))
+                {
+
+                    otvet2.Text = Convert.ToString(Math.Pow(x,2) * Math.Tan(y));
+
+                }
+                else
+                {
+                    otvet2.Text = Convert.ToString(Math.Pow(x,2) + y);
+                }
+
             } else if (f3.Checked == true)
             {
+
+                if ((x * y < 4) & (x * y > 1))
+                {
+
+                    otvet2.Text = Convert.ToString(Math.Pow((Math.Exp(x) + y), 2));
+
+                }
+                else if ((x * y < 10) & (x * y > 8))
+                {
+
+                    otvet2.Text = Convert.ToString(Math.Exp(x) * Math.Tan(y));
+
+                }
+                else
+                {
+                    otvet2.Text = Convert.ToString(Math.Exp(x) + y);
+                }
 
             }
         }
